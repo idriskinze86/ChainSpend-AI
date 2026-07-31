@@ -243,8 +243,6 @@ Contributions, feedback, and ideas are welcome.
 
 Feel free to fork the repository, create a feature branch, and submit a pull request.
 
-submit a pull request.
-
 ---
 
 # 🔗 Project Links
