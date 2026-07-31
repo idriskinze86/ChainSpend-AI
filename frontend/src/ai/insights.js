@@ -4,7 +4,10 @@ export function generateInsights(expenses) {
       summary: "No expenses recorded yet.",
       topCategory: "N/A",
       highestExpense: 0,
-      advice: "Start tracking expenses to receive AI insights."
+      advice: "Start tracking expenses to unlock AI recommendations.",
+      riskLevel: "Low",
+      budgetStatus: "Healthy",
+      shouldApprovePayment: true,
     };
   }
 
@@ -13,12 +16,12 @@ export function generateInsights(expenses) {
   const categories = {};
 
   expenses.forEach((expense) => {
-    const amount = Number(expense.amount) || 0;
+    const amount = Number(expense.amount || expense[0]) || 0;
     total += amount;
 
     if (amount > highest) highest = amount;
 
-    const category = expense.category || "Other";
+    const category = expense.category || expense[2] || "Other";
     categories[category] = (categories[category] || 0) + amount;
   });
 
@@ -26,16 +29,39 @@ export function generateInsights(expenses) {
     categories[a] > categories[b] ? a : b
   );
 
+  let riskLevel = "Low";
+  let budgetStatus = "Healthy";
+  let shouldApprovePayment = true;
+
+  if (highest > total * 0.5) {
+    riskLevel = "Medium";
+  }
+
+  if (total > 1000) {
+    budgetStatus = "Warning";
+  }
+
+  if (riskLevel === "Medium" && budgetStatus === "Warning") {
+    shouldApprovePayment = false;
+  }
+
   let advice = `Your highest spending category is ${topCategory}.`;
 
-  if (categories[topCategory] > total * 0.5) {
-    advice += " Consider setting a monthly budget for this category.";
+  if (!shouldApprovePayment) {
+    advice +=
+      " Spending appears unusually high. Review your finances before making another large payment.";
+  } else {
+    advice +=
+      " Your spending is currently within healthy limits.";
   }
 
   return {
-    summary: `You've recorded ${expenses.length} expenses totaling ${total}.`,
+    summary: `You've recorded ${expenses.length} expenses totaling ${total} ARC.`,
     topCategory,
     highestExpense: highest,
-    advice
+    advice,
+    riskLevel,
+    budgetStatus,
+    shouldApprovePayment,
   };
 }

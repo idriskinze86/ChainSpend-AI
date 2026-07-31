@@ -27,6 +27,16 @@ function Dashboard({ expenseCount, totalSpent, expenses = [] }) {
         <p><strong>Highest Expense:</strong> {insights.highestExpense} ARC</p>
 
         <p><strong>Recommendation:</strong> {insights.advice}</p>
+<p><strong>Risk Level:</strong> {insights.riskLevel}</p>
+
+<p><strong>Budget Status:</strong> {insights.budgetStatus}</p>
+
+<p>
+  <strong>Payment Recommendation:</strong>{" "}
+  {insights.shouldApprovePayment
+    ? "✅ Safe to proceed"
+    : "⚠️ Review before proceeding"}
+</p>
       </div>
     </>
   );
