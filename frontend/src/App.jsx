@@ -6,6 +6,7 @@ import Dashboard from "./components/Dashboard";
 import SearchBar from "./components/SearchBar";
 import ExpenseHistory from "./components/ExpenseHistory";
 import ExpenseForm from "./components/ExpenseForm";
+import AIAssistant from "./components/AIAssistant";
 import { Toaster, toast } from "react-hot-toast";
 
 function App() {
@@ -230,13 +231,15 @@ function App() {
         exportCSV={exportCSV}
         isRefreshing={isRefreshing}
       />
-     <Dashboard
+<Dashboard
   expenseCount={expenseCount}
   totalSpent={totalSpent}
   expenses={expenses}
 />
-      <hr />
 
+<AIAssistant expenses={expenses} />
+
+<hr />
       <h2>📋 Expense History</h2>
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <ExpenseHistory
