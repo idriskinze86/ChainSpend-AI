@@ -230,7 +230,11 @@ function App() {
         exportCSV={exportCSV}
         isRefreshing={isRefreshing}
       />
-      <Dashboard expenseCount={expenseCount} totalSpent={totalSpent} />
+     <Dashboard
+  expenseCount={expenseCount}
+  totalSpent={totalSpent}
+  expenses={expenses}
+/>
       <hr />
 
       <h2>📋 Expense History</h2>
