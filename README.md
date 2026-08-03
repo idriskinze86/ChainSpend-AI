@@ -1,69 +1,134 @@
-# 🤖 ChainSpend AI
+# 🤖 ChainSpend-AI
 
-### Autonomous USDC Expense Agent built on Arc
+### AI-Powered Web3 Financial Management on Arc Testnet
 
-ChainSpend-Arc is a decentralized Web3 expense tracker that enables users to securely record, organize, and manage crypto expenses directly on-chain.
+ChainSpend-AI is an AI-powered Web3 expense management platform built on Arc Testnet.
 
-Built on Arc Testnet, ChainSpend-Arc showcases fast, transparent, and wallet-specific expense tracking using Arc's EVM-compatible infrastructure.
+It enables users to securely record expenses on-chain while providing intelligent spending insights, financial summaries, searchable expense history, CSV export, and AI-assisted recommendations.
+
+By combining blockchain transparency with AI-powered financial analysis, ChainSpend-AI helps users better understand, organize, and manage their Web3 finances while laying the foundation for autonomous payment workflows.
 
 ---
 
 ## 🌐 Live Demo
 
-Live Application:
+Live Application
 
-https://chain-spend-arc.vercel.app/
+https://chain-spend-ai.vercel.app
 
-Experience ChainSpend-Arc on Arc Testnet by connecting an EVM-compatible wallet such as Rabby Wallet.
+Experience ChainSpend-AI by connecting any EVM-compatible wallet on Arc Testnet.
+
+Supported wallets include:
+
+- Rabby Wallet
+- MetaMask
+- OKX Wallet
+- Zerion Wallet
 
 ---
 
 ## ✨ Features
 
-- 🔐 Wallet-based authentication
-- 💰 Record crypto expenses on-chain
-- 📂 Categorize expenses
-- 📝 Add notes to every expense
-- 📊 Dashboard showing total expenses and total spending
-- 🔍 Search expense history
-- 🔄 Refresh on-chain expense records
-- 📤 Export expenses as CSV
-- ⚡ Powered by Arc Testnet
+### ⛓️ On-Chain Expense Management
+
+- 🔐 Connect any EVM-compatible wallet
+- 💰 Record expenses securely on-chain
+- 📂 Organize expenses by category
+- 📝 Add notes to every transaction
+- 📊 View total spending and expense history
+- 🔍 Search previous expenses
+- 🔄 Refresh on-chain records
+- 📤 Export expense history as CSV
+
+### 🤖 AI Features
+
+- 🧠 AI-generated spending insights
+- 📈 Spending summaries
+- 💡 Budget recommendations
+- 🚨 Spending risk assessment
+- 🤖 AI-powered financial assistant
+
+## Product Preview
+
+### Home
+
+![Home](./home.png)
+
+### Dashboard
+
+![Dashboard](./dashboard.png)
+
+### AI Spending Analysis
+
+![AI Spending](./AI_spending.png)
+
+### Search
+
+![Search](./search.png)
+
+### Wallet Connection
+
+![Wallet Connected](./wallet.connected.png)
+
+### CSV Export
+
+![CSV Export](./csv-export.png)
+
+### ⚡ Platform
+
+- ⚡ Built on Arc Testnet
+- 🔒 Wallet-specific on-chain records
+- 🌐 Responsive Web3 interface
 
 ---
 
 ## 🚀 Why Arc?
 
-Arc provides a secure and EVM-compatible environment that enables developers to build decentralized applications using familiar Ethereum tooling.
+Arc provides a fast, secure, and EVM-compatible environment that enables developers to build next-generation decentralized applications using familiar Ethereum tooling.
 
-ChainSpend-Arc leverages Arc to provide:
+ChainSpend-AI leverages Arc to deliver:
 
-- Transparent on-chain expense records
-- Wallet-specific expense history
-- Secure transaction storage
-- Fast transaction confirmation on Arc Testnet
-- A scalable foundation for future growth
+- ⚡ Fast and low-friction on-chain transactions
+- 🔒 Secure, wallet-specific expense records
+- 📖 Transparent and verifiable financial history
+- 🤖 A reliable foundation for AI-powered financial intelligence
+- 🚀 Scalable infrastructure for future autonomous payment workflows
 
 ---
 
 ## 🌍 Vision
 
-ChainSpend-Arc is built on Arc Testnet today, with an architecture designed to support additional EVM-compatible networks in the future.
+ChainSpend-AI aims to become an intelligent financial companion for Web3 users.
 
-Our goal is to provide a seamless, transparent, and secure expense tracking experience that can scale across multiple blockchain ecosystems while maintaining a consistent user experience.
+Beyond simply recording expenses, the platform is designed to help users understand their spending habits through AI-powered analysis, actionable recommendations, and future autonomous payment workflows.
+
+Our long-term vision is to combine blockchain transparency with artificial intelligence to create a secure, intelligent, and user-owned financial management experience that works seamlessly across multiple EVM-compatible networks.
 
 ---
 
 ## 🛣 Roadmap
 
-- ✅ Arc Testnet (Current)
-- 🔄 Monad Testnet
-- 🔄 Ethereum Sepolia
-- 🔄 Additional EVM-compatible networks
+### Current
+
+- ✅ On-chain expense tracking
+- ✅ Wallet integration
+- ✅ AI spending insights
+- ✅ Searchable expense history
+- ✅ CSV export
+- ✅ Responsive dashboard
+
+### Next Phase
+
+- 🤖 Smarter AI financial recommendations
+- 💳 Autonomous recurring payment workflows
+- 📈 Predictive spending analysis
+- 🌐 Multi-chain expense management
+- 📅 AI-generated financial reports
+- 🚨 AI anomaly and fraud detection
 
 ---
 
-## 📡 Live Deployment
+## 📡 Smart Contract Deployment
 
 | Network     | Contract Address                           |
 | ----------- | ------------------------------------------ |
@@ -73,7 +138,7 @@ Our goal is to provide a seamless, transparent, and secure expense tracking expe
 
 ## 📁 Project Structure
 
-ChainSpend-Arc/
+ChainSpend-AI/
 ├── contracts/
 │ └── ExpenseTracker.sol
 ├── scripts/
@@ -97,20 +162,41 @@ ChainSpend-Arc/
 
 ## 🛠 Tech Stack
 
-- Solidity
+### Frontend
+
 - React
 - Vite
+
+### Blockchain
+
+- Solidity
 - Ethers.js
-- Rabby Wallet
 - Arc Testnet
+
+### Wallet Integration
+
+- MetaMask
+- Rabby Wallet
+- OKX Wallet
+- Zerion Wallet
+
+### Deployment
+
+- Vercel
+
+### AI Features
+
+- AI-powered spending insights
+- Intelligent financial recommendations
+- Spending analysis
 
 ---
 
 ## 🌐 Clone the Repository
 
-git clone https://github.com/idriskinze86/ChainSpend-Arc.git
+git clone https://github.com/idriskinze86/ChainSpend-AI.git
 
-## cd ChainSpend-Arc
+## cd ChainSpend-AI
 
 ## ⚙️ Environment Variables
 
@@ -149,19 +235,23 @@ node scripts/compile.js
 
 ## 📜 Smart Contract
 
-Contract Name
+### Contract Name
 
 ExpenseTracker
 
+The ExpenseTracker smart contract is the core of ChainSpend-AI. It securely records expense transactions on Arc Testnet, ensuring every user's financial records remain transparent, immutable, and wallet-specific.
+
+Each connected wallet maintains its own independent expense history, allowing users to securely track, retrieve, search, and analyze their on-chain spending without exposing or mixing records with other users.
+
 ### Core Functions
 
-- addExpense() — Records a new expense on-chain.
-- getExpenses() — Retrieves all expenses for the connected wallet.
-- getExpenseCount() — Returns the total number of recorded expenses.
+| Function          | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| addExpense()      | Records a new expense on-chain.                                        |
+| getExpenses()     | Retrieves all expenses belonging to the connected wallet.              |
+| getExpenseCount() | Returns the total number of expenses recorded by the connected wallet. |
 
-Each wallet maintains its own independent expense history, ensuring user-specific records while keeping all data transparent and verifiable on-chain.
-
----
+## The smart contract is designed to provide a reliable on-chain data layer that powers the AI-driven financial insights and expense management features of ChainSpend-AI.
 
 ## 🌐 Network Configuration
 
@@ -175,34 +265,37 @@ Each wallet maintains its own independent expense history, ensuring user-specifi
 
 ## 📖 How It Works
 
-1. Connect your EVM-compatible wallet (Rabby Wallet recommended).
+1. Connect an EVM-compatible wallet (MetaMask, Rabby, OKX, or Zerion).
 2. Switch to Arc Testnet.
-3. Enter:
+3. Record an expense by entering:
    - Amount
    - Token
    - Category
    - Note
-4. Submit the transaction.
-5. Confirm the transaction in your wallet.
-6. The dashboard automatically updates.
-7. View your complete on-chain expense history.
-8. Search previous expenses.
-9. Refresh expenses anytime to synchronize with the blockchain.
-10. Export your expense history as a CSV file.
+4. Confirm the transaction in your wallet.
+5. The expense is securely stored on-chain.
+6. View your wallet-specific expense history.
+7. Search and filter previous expenses.
+8. Export your records as a CSV file.
+9. Review AI-generated spending insights and recommendations.
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Roadmap
 
-- 🌐 Automatic multi-network detection
-- 🔄 Seamless multi-chain support
-- 💰 On-chain budgeting
-- 💳 Remaining balance tracking
-- 🚫 Overspending prevention
-- 📈 Spending analytics and charts
-- 📅 Monthly expense reports
-- 🤖 AI-powered spending insights
+ChainSpend-AI is designed to evolve into an autonomous financial assistant for Web3 users.
+
+### Planned Features
+
+- 🤖 Smarter AI financial recommendations
+- 📊 Advanced spending analytics and visualizations
+- 📅 AI-generated monthly financial reports
+- 💳 Autonomous recurring payment workflows
+- 🌐 Multi-chain expense management
 - 🔗 Cross-chain expense synchronization
+- 🚨 AI-powered anomaly and fraud detection
+- 📈 Predictive budgeting and spending forecasts
+- 🔍 Natural language expense search
 
 ---
 
@@ -216,20 +309,22 @@ Feel free to fork the repository, create a feature branch, and submit a pull req
 
 ## 🔗 Project Links
 
-- 🌐 Live Demo: https://chain-spend-arc.vercel.app/
-- 💻 GitHub Repository: https://github.com/idriskinze86/ChainSpend-Arc
+- 🌐 Live Demo: https://chain-spend-ai.vercel.app/
+- 💻 GitHub Repository: https://github.com/idriskinze86/ChainSpend-AI
 - ⛓️ Network: Arc Testnet
 
 ---
 
 ## 🙌 Acknowledgements
 
-Built for the Arc ecosystem to demonstrate practical on-chain financial management using Solidity, React, Vite, and Ethers.js.
+ChainSpend-AI was built for the Arc ecosystem to demonstrate how blockchain and AI can work together to simplify on-chain financial management.
 
-Special thanks to the Arc team and the developer community for providing the infrastructure and tools that made this project possible.
+Special thanks to the Arc team for providing the infrastructure and developer tools that made this project possible, and to the Web3 open-source community for the libraries and resources that accelerated development.
 
----
+## Built with ❤️ using Solidity, React, Vite, Ethers.js, and Arc Testnet.
 
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this software in accordance with the terms of the MIT License.
