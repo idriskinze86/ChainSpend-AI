@@ -92,27 +92,27 @@ The platform combines blockchain transparency with AI-driven decision support to
 
 ### Home
 
-![Home](./home.png)
+![Home](./screenshots/home.png)
 
 ### Dashboard
 
-![Dashboard](./dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ### AI Spending Analysis
 
-![AI Spending](./AI_spending.png)
+![AI Spending](./screenshots/AI_spending.png)
 
 ### Search
 
-![Search](./search.png)
+![Search](./screenshots/search.png)
 
 ### Wallet Connection
 
-![Wallet Connected](./wallet.connected.png)
+![Wallet Connected](./screenshots/wallet-connected.png)
 
 ### CSV Export
 
-![CSV Export](./csv-export.png)
+![CSV Export](./screenshots/csv-export.png)
 
 ### ⚡ Platform
 
