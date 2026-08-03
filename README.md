@@ -49,7 +49,7 @@ Users must:
 - Remember recurring payments
 - Review every transaction
 
-Traditional expense trackers only record history—they don't help users make financial decisions.
+Traditional expense trackers only record history,they don't help users make financial decisions.
 
 ---
 
@@ -411,7 +411,9 @@ node scripts/deploy.js
 
 ---
 
-# 📖 How It Works
+## How It Works
+
+### Network Details
 
 | Property        | Value       |
 | --------------- | ----------- |
@@ -419,9 +421,7 @@ node scripts/deploy.js
 | Chain ID        | 5042002     |
 | Currency Symbol | ARC         |
 
----
-
-## 📖 How It Works
+### User Flow
 
 1. Connect an EVM-compatible wallet (MetaMask, Rabby, OKX, or Zerion).
 2. Switch to Arc Testnet.
