@@ -6,7 +6,7 @@ ChainSpend-AI is an AI-powered Web3 expense management platform built on Arc Tes
 
 It enables users to securely record expenses on-chain while providing intelligent spending insights, financial summaries, searchable expense history, CSV export, and AI-assisted recommendations.
 
-# By combining blockchain transparency with AI-powered financial analysis, ChainSpend-AI helps users better understand, organize, and manage their Web3 finances while laying the foundation for autonomous payment workflows.
+By combining blockchain transparency with AI-powered financial analysis, ChainSpend-AI helps users better understand, organize, and manage their Web3 finances while laying the foundation for autonomous payment workflows.
 
 ## Autonomous USDC Expense Agent on Arc
 
@@ -501,7 +501,7 @@ Feel free to fork the repository, create a feature branch, and submit a pull req
 
 ChainSpend-AI was built for the Arc ecosystem to demonstrate how blockchain and AI can work together to simplify on-chain financial management.
 
-# Special thanks to the Arc team for providing the infrastructure and developer tools that made this project possible, and to the Web3 open-source community for the libraries and resources that accelerated development.
+## Special thanks to the Arc team for providing the infrastructure and developer tools that made this project possible, and to the Web3 open-source community for the libraries and resources that accelerated development.
 
 Built for the **Arc Agentic Economy Hackathon**.
 
