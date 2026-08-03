@@ -33,7 +33,7 @@ Supported wallets include:
 - Rabby Wallet
 - MetaMask
 - OKX Wallet
-- # Zerion Wallet
+- Zerion Wallet
   > This live demo showcases the current on-chain expense tracking foundation. AI-powered autonomous capabilities are actively being developed as part of ChainSpend AI.
 
 ---
@@ -175,7 +175,7 @@ ChainSpend-AI aims to become an intelligent financial companion for Web3 users.
 
 Beyond simply recording expenses, the platform is designed to help users understand their spending habits through AI-powered analysis, actionable recommendations, and future autonomous payment workflows.
 
-# Our long-term vision is to combine blockchain transparency with artificial intelligence to create a secure, intelligent, and user-owned financial management experience that works seamlessly across multiple EVM-compatible networks.
+Our long-term vision is to combine blockchain transparency with artificial intelligence to create a secure, intelligent, and user-owned financial management experience that works seamlessly across multiple EVM-compatible networks.
 
 Our vision is to build an autonomous financial assistant where AI agents help users monitor expenses, recommend financial decisions, and eventually automate trusted USDC payments while keeping users in control.
 
@@ -501,7 +501,7 @@ Feel free to fork the repository, create a feature branch, and submit a pull req
 
 ChainSpend-AI was built for the Arc ecosystem to demonstrate how blockchain and AI can work together to simplify on-chain financial management.
 
-## Special thanks to the Arc team for providing the infrastructure and developer tools that made this project possible, and to the Web3 open-source community for the libraries and resources that accelerated development.
+Special thanks to the Arc team for providing the infrastructure and developer tools that made this project possible, and to the Web3 open-source community for the libraries and resources that accelerated development.
 
 Built for the **Arc Agentic Economy Hackathon**.
 
