@@ -1,7 +1,5 @@
 # 🤖 ChainSpend-AI
 
-<<<<<<< HEAD
-
 ### AI-Powered Web3 Financial Management on Arc Testnet
 
 ChainSpend-AI is an AI-powered Web3 expense management platform built on Arc Testnet.
@@ -18,20 +16,16 @@ It combines blockchain transparency, programmable money, and intelligent financi
 
 Built for the **Arc Agentic Economy Hackathon**.
 
-> > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
-
 ---
 
 # 🌐 Live Demo
 
-<<<<<<< HEAD
 Live Application
-=======
+
 **Current Prototype (Arc Foundation)**
 
 https://chain-spend-ai.vercel.app
 
-<<<<<<< HEAD
 Experience ChainSpend-AI by connecting any EVM-compatible wallet on Arc Testnet.
 
 Supported wallets include:
@@ -74,8 +68,6 @@ The platform combines blockchain transparency with AI-driven decision support to
 ---
 
 # ✨ Current Features
-
-<<<<<<< HEAD
 
 ### ⛓️ On-Chain Expense Management
 
@@ -136,13 +128,11 @@ The platform combines blockchain transparency with AI-driven decision support to
 - 🔄 Automatic expense refresh
 - 📤 Export expenses as CSV
 - ⚡ Powered by Arc Testnet
-  > > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
 
 ---
 
 # 🧠 AI Roadmap
 
-<<<<<<< HEAD
 Arc provides a fast, secure, and EVM-compatible environment that enables developers to build next-generation decentralized applications using familiar Ethereum tooling.
 
 ChainSpend-AI leverages Arc to deliver:
@@ -182,7 +172,6 @@ ChainSpend AI leverages Arc to provide:
 
 # 🌍 Vision
 
-<<<<<<< HEAD
 ChainSpend-AI aims to become an intelligent financial companion for Web3 users.
 
 Beyond simply recording expenses, the platform is designed to help users understand their spending habits through AI-powered analysis, actionable recommendations, and future autonomous payment workflows.
@@ -191,13 +180,9 @@ Beyond simply recording expenses, the platform is designed to help users underst
 
 Our vision is to build an autonomous financial assistant where AI agents help users monitor expenses, recommend financial decisions, and eventually automate trusted USDC payments while keeping users in control.
 
-> > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
-
 ---
 
 # 🛣 Roadmap
-
-<<<<<<< HEAD
 
 ### Current
 
@@ -220,8 +205,6 @@ Our vision is to build an autonomous financial assistant where AI agents help us
 ---
 
 ## 📡 Smart Contract Deployment
-
-=======
 
 ## ✅ Phase 1 (Current)
 
@@ -250,15 +233,11 @@ Our vision is to build an autonomous financial assistant where AI agents help us
 
 # 📡 Live Deployment
 
-> > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
-
 | Network     | Contract Address                           |
 | ----------- | ------------------------------------------ |
 | Arc Testnet | 0x72EC997ffB25D63F430A95c69a0B93F5F2d90131 |
 
 ---
-
-<<<<<<< HEAD
 
 ## 📁 Project Structure
 
@@ -322,7 +301,6 @@ ChainSpend-AI/
 - Spending Intelligence
 - Budget Analysis
 - Financial Recommendations
-  > > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
 
 ### Wallet Integration
 
@@ -345,7 +323,6 @@ ChainSpend-AI/
 
 # 📁 Project Structure
 
-<<<<<<< HEAD
 git clone https://github.com/idriskinze86/ChainSpend-AI.git
 
 ## cd ChainSpend-AI
@@ -370,8 +347,6 @@ ChainSpend-AI/
 ├── README.md
 └── LICENSE
 ```
-
-> > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
 
 ---
 
@@ -409,8 +384,6 @@ node scripts/compile.js
 
 ## Deploy contract
 
-<<<<<<< HEAD
-
 ## node scripts/deploy.js
 
 ## 📜 Smart Contract
@@ -433,24 +406,19 @@ Each connected wallet maintains its own independent expense history, allowing us
 
 ## The smart contract is designed to provide a reliable on-chain data layer that powers the AI-driven financial insights and expense management features of ChainSpend-AI.
 
-=======
-
 ```bash
 node scripts/deploy.js
 ```
 
 ---
 
-> > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
-
 # 📖 How It Works
 
-<<<<<<< HEAD
-| Property | Value |
+| Property        | Value       |
 | --------------- | ----------- |
-| Network | Arc Testnet |
-| Chain ID | 5042002 |
-| Currency Symbol | ARC |
+| Network         | Arc Testnet |
+| Chain ID        | 5042002     |
+| Currency Symbol | ARC         |
 
 ---
 
@@ -509,7 +477,6 @@ ChainSpend-AI is designed to evolve into an autonomous financial assistant for W
 - 🔁 Recurring payment automation
 - 🧠 Autonomous payment approvals
 - 🌉 Cross-chain financial management
-  > > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
 
 ---
 
@@ -523,20 +490,16 @@ Feel free to fork the repository, create a feature branch, and submit a pull req
 
 # 🔗 Project Links
 
-<<<<<<< HEAD
-
 - 🌐 Live Demo: https://chain-spend-ai.vercel.app/
 - 💻 GitHub Repository: https://github.com/idriskinze86/ChainSpend-AI
 - # ⛓️ Network: Arc Testnet
 - 🌐 Live Demo: https://chain-spend-arc.vercel.app/
 - 💻 GitHub Repository: https://github.com/idriskinze86/ChainSpend-AI
-  > > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
 
 ---
 
 # 🙌 Acknowledgements
 
-<<<<<<< HEAD
 ChainSpend-AI was built for the Arc ecosystem to demonstrate how blockchain and AI can work together to simplify on-chain financial management.
 
 # Special thanks to the Arc team for providing the infrastructure and developer tools that made this project possible, and to the Web3 open-source community for the libraries and resources that accelerated development.
@@ -546,8 +509,6 @@ Built for the **Arc Agentic Economy Hackathon**.
 ChainSpend AI explores how AI agents, programmable money, and blockchain technology can simplify personal finance while leveraging Arc's infrastructure.
 
 The current implementation provides the on-chain expense management foundation, while AI-powered autonomous financial capabilities are actively being developed.
-
-> > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
 
 ## Built with ❤️ using Solidity, React, Vite, Ethers.js, and Arc Testnet.
 
