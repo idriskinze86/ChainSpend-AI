@@ -166,7 +166,6 @@ ChainSpend AI leverages Arc to provide:
 - Secure transaction storage
 - Fast transaction confirmation
 - A scalable foundation for AI-powered finance
-  > > > > > > > a9e01c925ccad3bde9cca64d1c2d86f07da7caa4
 
 ---
 
