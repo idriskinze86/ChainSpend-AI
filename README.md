@@ -403,7 +403,7 @@ Each connected wallet maintains its own independent expense history, allowing us
 | getExpenses()     | Retrieves all expenses belonging to the connected wallet.              |
 | getExpenseCount() | Returns the total number of expenses recorded by the connected wallet. |
 
-## The smart contract is designed to provide a reliable on-chain data layer that powers the AI-driven financial insights and expense management features of ChainSpend-AI.
+The smart contract is designed to provide a reliable on-chain data layer that powers the AI-driven financial insights and expense management features of ChainSpend-AI.
 
 ```bash
 node scripts/deploy.js
